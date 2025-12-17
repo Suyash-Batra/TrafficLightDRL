@@ -1,0 +1,5 @@
+//train - python train.py --train -m robust_model -e 5 -s 1200 --train-cfgs pune.sumocfg --nogui
+//test - python train.py -m robust_model -e 1 -s 1200 --test-cfg test.sumocfg --nogui
+//static -  python tets.py -e 10 -s 1200 --test-cfg test.sumocfg --nogui -m static_comparison
+
+//python randomTrips.py -n city2.net.xml -o city2.rou.xml -e 1200 -p 0.5 

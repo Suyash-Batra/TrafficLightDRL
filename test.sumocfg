@@ -1,0 +1,22 @@
+<configuration>
+  <input>
+    <net-file value="maps/city2.net.xml"/>
+    <route-files value="maps/city2.rou.xml"/>   <!-- or pune_4arm.rou.xml -->
+  </input>
+
+  <time>
+    <begin value="0"/>
+    <end value="2000"/>
+  </time>
+
+<processing>
+  <time-to-teleport value="20000"/>   <!-- vehicles disappear if blocked >300s -->
+</processing>
+
+  <report>
+    <no-step-log value="true"/>
+    <verbose value="false"/>
+  </report>
+</configuration>
+
+

@@ -1,0 +1,13 @@
+<configuration>
+  <input>
+    <net-file value="maps/city2.net.xml"/>
+    <route-files value="maps/city2.rou.xml"/>
+  </input>
+  <processing>
+  <time-to-teleport value="2500"/>
+  </processing>
+  <time>
+    <begin value="0"/>
+    <end value="1400"/>
+  </time>
+</configuration>
